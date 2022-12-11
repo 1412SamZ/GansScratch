@@ -17,4 +17,4 @@
 
 
 ## Result from Vnl GAN
-![[gan_epoch_19.png]]
+![result Vnl Gan](gan_epoch_19.png)
