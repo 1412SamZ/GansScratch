@@ -24,7 +24,7 @@ torch.manual_seed(random_seed)
 BATCH_SIZE=64
 NUM_WORKERS=int(os.cpu_count()/2) # use half cpu cores
 
-DATA_DIR="../data"
+DATA_DIR="./data"
 
 
 

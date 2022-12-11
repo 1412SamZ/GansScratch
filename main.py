@@ -11,7 +11,7 @@ model = GAN()
 # model.plot_imgs(False)
 
 
-trainer = pl.Trainer(max_epochs=1, gpus=1,enable_checkpointing=False)
+trainer = pl.Trainer(max_epochs=20, gpus=1,enable_checkpointing=False)
 trainer.fit(model, dm)
 trainer.save_checkpoint("./saved_models/GANFinal.ckpt")
 
