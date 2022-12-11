@@ -14,3 +14,7 @@
 - ...
 - Generator generate fake data again
 - Discriminator: These are real
+
+
+## Result from Vnl GAN
+![[gan_epoch_19.png]]
